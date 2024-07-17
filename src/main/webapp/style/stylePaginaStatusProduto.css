@@ -1,0 +1,83 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.status{
+    padding: 2% 2% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.status__entrega__informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.status__entrega__informacoes__informacao{
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
+}
+
+.status__entrega{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; 
+    gap: 50px;
+    padding: 2% 2%;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+.imagem__produto{
+    width: 200px;
+    height: 200px;
+}
+
+.status__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 10;
+    color: #000000;
+}
+.status__select{
+	border-radius: 0px;
+    width: 600px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #D8D9DA;
+    padding: 5px 30px;
+}
+.status__alterar{
+    background-color: rgb(255, 255, 0);
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    width: 365px;
+    height: 40px; /* Ajustei a altura para melhor visualiza��o */
+    text-align: center;
+    border-radius: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 21.5px; /* Ajustei o padding vertical para melhor visualiza��o */
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+.status__alterar:hover{
+    background-color: rgb(255, 128, 0);
+}

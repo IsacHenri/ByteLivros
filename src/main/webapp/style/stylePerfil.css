@@ -1,0 +1,82 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 15%;
+    gap: 16px;
+}
+
+.perfil__link{
+    display: flex;
+    background-color: #FFFFFF;
+    text-align: left;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 21.5px 21.5px;
+    gap: 50px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+/* Estilos para o contêiner do perfil */
+.perfil__linkb {
+    background-color: #f0f0f0; /* Cor de fundo */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.nao__encontrado{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; 
+    color:#000000;
+    padding: 15px 15px;
+    width: 90%;
+    gap: 30px;
+    font-size: 17px;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para o parágrafo dentro do contêiner do perfil */
+.perfil__linkb p {
+    font-size: 16px;
+    color: #333; /* Cor do texto */
+    margin: 0; /* Remover margens padrão */
+}
+
+/* Estilos para o texto "Bem vindo" */
+.perfil__linkb p::before {
+    content: "Bem vindo, "; /* Adiciona o texto "Bem vindo" antes do conteúdo do parágrafo */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilos para o email do cliente */
+.perfil__linkb p br {
+    display: block; /* Coloca o email em uma nova linha */
+}
+
+/* Estilos para o email do cliente */
+.perfil__linkb p br::before {
+    content: "\A"; /* Adiciona uma quebra de linha */
+    white-space: pre; /* Define o espaço em branco como pré-formatado */
+}
+
+.perfil__link:hover{
+	background-color: #D8D9DA;
+}
+
+
+.perfil__imagem{
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,195 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.perfil{
+    padding: 2% 2% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.perfil__titulo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: 10;
+}
+
+.perfil__informacoes{
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.nao__encontrado{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; 
+    color:#000000;
+    padding: 15px 15px;
+    width: 90%;
+    gap: 30px;
+    font-size: 17px;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.perfil__informacoes__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil__informacoes__container__cliente{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.perfil__informacoes__container__cliente__informacao{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:black;
+    font-weight: 10;
+}
+
+.perfil__imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.perfil__informacoes__container__acoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfil__acoes__excluir{
+    background-color: #D8D9DA;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 10px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21.5px 21.5px 21.5px 21.5px;
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.perfil__acoes__alterar{
+    background-color: rgb(255, 255, 0);
+    width: 300px;
+    height: 10px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21.5px 21.5px 21.5px 21.5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.busca__clientes{
+    padding: 3% 3%;
+    display: flex;
+    align-items: center;
+}
+
+.buscar__cliente{
+    border-radius: 0px;
+    width: 200px;
+    height: 30px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    border: none;
+    padding: 5px 30px;
+    display: flex;
+    gap: 10px;
+}
+----------------------------------------
+.pesquisa-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para o parágrafo "Nome" */
+.pesquisa-wrapper p {
+    margin-right: 10px; /* Espaçamento entre o parágrafo e a barra de pesquisa */
+}
+
+/* Estilos para o contêiner da barra de pesquisa */
+.pesquisa-input {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para a barra de pesquisa */
+.barra__pesquisap {
+    width: 200px; /* Ajuste conforme necessário */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px; /* Espaçamento entre a barra de pesquisa e o botão de pesquisa */
+}
+
+/* Estilos para o botão de pesquisa */
+.botao__pesquisarP {
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+/* Estilos para o ícone de lupa */
+.botao__pesquisar__lupaP{
+    width: 20px;
+    height: 20px;
+}
+----------------------------------------------
+.select__filtro__busca__cliente{
+    background-color: #D8D9DA;
+    justify-content: center;
+    display: flex;
+    gap: 16px; 
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.perfil__acoes__excluir:hover{
+	 background-color: #9BABB8;
+}
+
+.perfil__acoes__alterar:hover{
+    background-color: rgb(255, 128, 0);
+}
+
+.cliente__cadastro__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 10;
+    color: #000000;
+}

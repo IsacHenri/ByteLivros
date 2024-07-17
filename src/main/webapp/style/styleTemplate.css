@@ -1,0 +1,138 @@
+/* Estilos gerais */
+body {
+    background: var(--main-bg-color);
+    color: #f5f5f1;
+    padding: 0;
+    margin: 0;
+    font-family: var(--geolite);
+}
+
+/* Estilos do cabeçalho */
+.mHeader {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mTitulo {
+    margin-right: 20px;
+    font-size: 24px;
+}
+.icone__voltar{
+    height: 30px;
+    width: 30px;
+} 
+.link__voltar {
+    justify-content: center;
+    width: 30px;
+    height: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mNav {
+    position: absolute;
+    left: 50%;
+    top: 2.5vh; /* Usando unidades relativas (viewport height) */
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.mNav a {
+    font-family: var(--geobold);
+    text-transform: uppercase;
+    font-size: 13px;
+    opacity: .5;
+    transition: .1s all ease-in-out;
+}
+.cabecalho__menu {
+    display: flex;
+}
+
+.cabecalho__menu__link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.cabecalho__menu__icones {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Estilos da barra de pesquisa */
+.mBuscar {
+    flex-grow: 1;
+    text-align: right;
+    margin-bottom: 20px;
+    position: relative; /* Adicionando posição relativa */
+}
+
+.barra_pesquisa {
+    padding: 3px 5vw;
+    border: 1px solid #ccc;
+    width: calc(100% - 194px);
+}
+.barra_pesquisa::placeholder {
+    text-align: center; /* Centralizando o texto do placeholder */
+}
+.botao__pesquisar{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(img/icons/spr.png);
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    width: 43px; /* Ajustando a largura */
+    height: 22px; /* Ajustando a altura */
+}
+.botao-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(192, 192, 192); /* Cor de fundo do botão (exemplo) */
+    color: #fff; /* Cor do texto do botão (exemplo) */
+    text-decoration: none; /* Remover sublinhado do link */
+    border-radius: 5px; /* Adicionando bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.botao-link:hover {
+    background-color: rgb(128, 128, 128); /* Cor de fundo do botão ao passar o mouse (exemplo) */
+}
+.botao__pesquisar_produto{
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+.botao__pesquisar__lupa{
+    width: 20px;
+    height: 20px;
+}
+.botao__pesquisar__lupa_produto{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Estilos do rodapé */
+.rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

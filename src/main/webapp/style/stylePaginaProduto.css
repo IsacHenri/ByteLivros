@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.produto{
+	padding: 5% 5%;
+    align-items: center;
+}
+
+.produto__imagem{
+    width: 400px; 
+    height: 400px;
+}
+
+.produto__venda{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 0px;
+    border: 1px solid #000000; 
+    padding: 20px 20px;
+}
+
+.produto__nome{
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.titulo__destaque{
+    color: #000000;
+}
+
+.produto__preco{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.produto__preco__destaque{
+    color: rgb(255, 128, 0);
+}
+
+.produto__quantidade{
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+}
+
+.produto__selecao__unidade{
+    border-radius: 0px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 5px 30px;
+}
+
+
+
+.produto__quantidade__unidades{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/* .apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.produto__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+/* .apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+} */
+
+.produto__links__compra{
+    background-color: rgb(255, 255, 0);
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    width: 380px;
+    height: 60px; /* Ajustei a altura para melhor visualiza��o */
+    text-align: center;
+    border-radius: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 21.5px; /* Ajustei o padding vertical para melhor visualiza��o */
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.produto__links__adiciona__carrinho{
+    background-color: #D8D9DA;
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    width: 380px;
+    height: 60px; /* Ajustei a altura para melhor visualiza��o */
+    text-align: center;
+    border-radius: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 21.5px; /* Ajustei o padding vertical para melhor visualiza��o */
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.produto__links__compra:hover{
+    background-color: rgb(255, 128, 0); 
+}
+
+.produto__links__adiciona__carrinho:hover{
+     background-color: #9BABB8; 
+}
+
+.produto__vitrine{
+	padding: 5% 5% 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.produto__tabela__informacoes{
+    display: flex;
+    padding: 5% 5%;
+    align-items: center;
+}
+
+.tabela__livro {
+  border-collapse: collapse;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.info-item {
+  background-color: rgb(255, 255, 0);
+  text-align: left;	
+  padding: 10px 15px;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: 'Krona One', sans-serif;
+  font-weight: 600;
+}
+
+.info-label, info-value { 
+  text-align: left;
+  padding: 10px 15px;
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+

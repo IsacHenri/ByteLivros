@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.entrega{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    padding: 5% 5%;
+    align-items: center;
+}
+
+.imagem__produto{
+    width: 200px;
+    height: 200px;
+}
+
+.imagem__localizacao{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.entrega__informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.entrega__informacoes__endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.entrega__endereco__titulo{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
+}
+
+.entrega__informacoes__endereco__opcao{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    padding: 3% 3%;
+    border: 1px solid #000000;
+    font-weight: 10;
+}
+
+.entrega__selecao__opcao__seletor{
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 0px;
+  }
+
+/* Estilizando o marcador da caixa de sele��o */
+.checkmark {
+    position: absolute;
+    top: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 0px;
+  }
+  
+  /* Alterando a apar�ncia do marcador quando a caixa de sele��o estiver marcada */
+  .entrega__selecao__opcao__seletor input[type="checkbox"]:checked + .checkmark {
+    background-color: rgb(255, 248, 98);
+  }
+  
+  /* Ocultando a caixa de sele��o padr�o */
+  .entrega__selecao__opcao__seletor input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Estilizando o texto ao lado da caixa de sele��o */
+  .entrega__selecao__opcao__seletor:hover {
+    color: rgb(255, 248, 98);
+  }  
+
+.entrega__frete__titulo{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
+}
+
+.entrega__informa��es__frete{
+    height: 10%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3% 3% 3%;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.entrega__informacoes__compra{
+    height: 85%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10% 10%;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    gap: 16px;
+    
+}
+
+.entrega__compra__titulo{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 10;
+}
+
+.entrega__acoes {
+    display: flex;
+    gap: 110px;
+}
+
+.entrega__adiciona__endereco {
+    background-color: #D8D9DA;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente o conte�do */
+    width: 200px;
+    height: 40px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.1px 21.5px;
+}
+
+.entrega__frete__confirmar {
+    background-color: rgb(255, 255, 0);
+    display: block;
+    border: none;
+    cursor: pointer;
+    width: 245px;
+    height: 40px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 21.5px;
+}
+
+.entrega__frete__confirmar:hover{
+    background-color: rgb(255, 128, 0); 
+}
+
+.entrega__adiciona__endereco:hover{
+    background-color: #9BABB8; 
+}

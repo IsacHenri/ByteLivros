@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cliente{
+    display: flex;
+    flex-direction:column;
+    padding: 2% 5%;
+}
+
+.cliente__cadastro{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-direction:column;
+    padding: 21.5px 21.5px;
+}
+
+.cliente__cadastro__dados{
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.cliente__cadastro__informacoes__pessoais{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #000000;
+    padding: 21.5px 21.5px;
+}
+
+.cliente__cadastro__informacoes__endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #000000;
+    padding: 21.5px 21.5px;
+    justify-content:space-around;
+}
+
+.cliente__cadastro__informacoes__cartao{
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #000000;
+    padding: 21.5px 21.5px;
+}
+
+.cliente__cadastro__campos{
+    width: 400px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #D8D9DA;
+    padding: 5px 30px;
+}
+
+.cliente__cadastro__select{
+    width: 250px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #D8D9DA;
+    padding: 5px 30px;
+}
+
+.cliente__cadastro__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 10;
+    color: #000000;
+}
+
+.cliente__cadastro__cadastrar{
+    background-color: rgb(255, 255, 0);
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    width: 365px;
+    height: 40px; /* Ajustei a altura para melhor visualiza��o */
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 21.5px; /* Ajustei o padding vertical para melhor visualiza��o */
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cliente__cadastro__cadastrar:hover{
+    background-color: rgb(255, 128, 0);
+}
+
+.cliente__cadastro__campos__cidade__estado{
+	display: flex;
+	gap: 10px;
+}
+
+.cliente__cadastro__campos__nome__genero{
+	display:flex;
+	gap: 10px;
+}
+
+.cliente__cadastro__campos__logradouro__tipoLogradouro__tipoResidencia{
+	display:flex;
+	gap: 10px;
+}

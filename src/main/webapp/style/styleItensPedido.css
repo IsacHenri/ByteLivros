@@ -1,0 +1,155 @@
+/* Estilos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.produto__link__voltar{
+    justify-content: center; 
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21.5px 21.5px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.produto__icone__voltar{
+    height: 30px;
+    width: 30px;
+}
+
+.compras__lista{
+	padding: 2% 2% 1% 5%;
+	display: flex; 
+	flex-direction: column;
+	gap: 20px;	
+}
+
+.compras__lista__produtos{
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+}
+
+.compras__lista__produtos__header{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.compras__lista__produtos__produto{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; 
+    color:#000000;
+    padding: 15px 15px;
+    width: 90%;
+    gap: 30px;
+    font-size: 17px;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nao__encontrado{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; 
+    color:#000000;
+    padding: 15px 15px;
+    width: 90%;
+    gap: 30px;
+    font-size: 17px;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.compras__lista__produtos__produto__descricao{
+    display: flex;
+    flex-direction: column;
+    color:#000000;
+    padding: 5px 5px;
+    gap: 30px;
+}
+
+.imagem__produto{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.compras__lista__produtos__produto__acoes{
+    display: flex;
+    padding: 25px 40px;
+    gap: 16px;
+    border-radius: 0px;
+    flex-direction: column;
+}
+
+.compras__lista__produtos__produto__comprar__novamente{
+    background-color: rgb(255, 255, 0);
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21.5px 21.5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.compras__lista__produtos__produto__ver__compra{
+    background-color: #D8D9DA;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21.5px 21.5px;
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.compras__lista__produtos__produto__trocar__produto{
+    background-color: #D8D9DA;
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    width: 275px;
+    height: 10px; /* Ajustei a altura para melhor visualiza��o */
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 750;
+    padding: 5px 21.5px; /* Ajustei o padding vertical para melhor visualiza��o */
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.compras__lista__produtos__produto__comprar__novamente:hover{
+    background-color: rgb(255, 128, 0); 
+}
+
+.compras__lista__produtos__produto__trocar__produto:hover{
+     background-color: #9BABB8; 
+}
+
+.compras__lista__produtos__produto__ver__compra:hover{
+    background-color: #9BABB8; 
+}

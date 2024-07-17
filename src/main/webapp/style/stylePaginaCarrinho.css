@@ -1,0 +1,212 @@
+/* Estilos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carrinho__conteudo__item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.carrinho{
+    display: flex;
+    padding: 2% 2% 1% 5%;
+}
+
+.carrinho__item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5% 5%;
+}
+
+.carrinho__conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrinho__produtos{
+    padding: 2% 2% 1% 5%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.carrinho__produtos__tabela{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carrinho__produtos__header,
+.carrinho__vazio__header{
+    color: #000000;
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.carrinho__produtos__produto,
+.carrinho__vazio__produto{
+    display: flex;
+    width: 500px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; 
+    color: #000000;
+    padding: 30px 30px;
+    gap: 30px;
+    font-size: 20px;
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+}
+
+.carrinho__produtos__informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagem__produto{
+    width: 200px;
+    height: 200px;
+}
+
+.carrinho__produtos__selecao__unidade{
+    border-radius: 0px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #D8D9DA;
+    padding: 5px 30px;
+}
+
+.carrinho__produtos__excluir{
+    background-color: #D8D9DA;
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    height: 10px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #537FE7;
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+}
+
+.carrinho__produtos__excluir:hover{
+    background-color: #9BABB8; 
+}
+
+.carrinho__produtos__alterar,
+.carrinho__produtos__alterar__submit{
+    background-color: rgb(255, 255, 0);
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    height: 10px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+}
+
+.carrinho__produtos__alterar:hover,
+.carrinho__produtos__alterar__submit:hover{
+    background-color: rgb(255, 128, 0); 
+}
+
+.carrinho__produtos__comprar{
+    background-color: rgb(255, 255, 0);
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    width: 280px;
+    height: 60px; /* Ajustei a altura para melhor visualização */
+    text-align: center;
+    border-radius: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 21.5px; /* Ajustei o padding vertical para melhor visualização */
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+}
+
+.carrinho__produtos__comprar:hover{
+    background-color: rgb(255, 128, 0); 
+}
+
+.carrinho__produtos__voltar{
+    background-color: #D8D9DA;
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    width: 245px;
+    height: 30px; /* Ajustei a altura para melhor visualização */
+    text-align: center;
+    border-radius: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 14.5px 17.5px; /* Ajustei o padding vertical para melhor visualização */
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+}
+
+.carrinho__produtos__voltar:hover{
+    background-color: #9BABB8; 
+}
+
+.carrinho__resumo__compra{
+    display: flex;
+    width: 300px;
+    height: 280px;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; 
+    color: #000000;
+    padding: 50px 50px;
+    gap: 30px;
+    font-size: 20px;
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+}
+
+.carrinho__resumo__compra__informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.carrinho__resumo__compra__acao{
+    
+}
+
+.carrinho__resumo__compra__titulo{
+    font-family: 'Roboto', sans-serif; /* Substituído pela fonte Roboto */
+    color: #000000;
+    font-size: 25px;
+    font-weight: 10;
+}
+
+.carrinho__produtos__acoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
